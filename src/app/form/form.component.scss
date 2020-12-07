@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  label {
+    font-size: 20px;
+    font-family: monospace;
+  }
+
+  input {
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px;
+  }
+
+  .date-select {
+    select {
+      margin-left: 10px;
+    }
+  }
+}
